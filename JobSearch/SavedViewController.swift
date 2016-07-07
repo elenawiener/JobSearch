@@ -1,14 +1,14 @@
 //
-//  SecondViewController.swift
+//  SavedViewController.swift
 //  JobSearch
 //
 //  Created by Elena Wiener on 7/7/16.
 //  Copyright © 2016 Adecco. All rights reserved.
 //
-
+import Foundation
 import UIKit
 
-class SecondViewController: UIViewController {
+class SavedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

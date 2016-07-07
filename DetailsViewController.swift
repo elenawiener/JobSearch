@@ -1,5 +1,5 @@
 //
-//  Results.swift
+//  DetailsViewController.swift
 //  JobSearch
 //
 //  Created by Elena Wiener on 7/7/16.
@@ -31,6 +31,11 @@ class DetailsViewController: UIViewController {
      // Pass the selected object to the new view controller.
      }
      */
-    
+    @IBOutlet weak var saveButton: UIButton!
+
+    // SAVE HEART COLOR TOGGLE ON TOUCH
+    func saveButton(sender: UIButton) {
+        sender.selected = !sender.selected
+    }
 }
 
