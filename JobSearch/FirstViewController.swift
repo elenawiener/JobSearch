@@ -5,7 +5,7 @@
 //  Created by Elena Wiener on 7/7/16.
 //  Copyright © 2016 Adecco. All rights reserved.
 //
-
+import Foundation
 import UIKit
 
 class FirstViewController: UIViewController {
@@ -19,7 +19,6 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 

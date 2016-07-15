@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-class ResultsViewController: UIViewController {
+class ResultsViewController: UINavigationController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
