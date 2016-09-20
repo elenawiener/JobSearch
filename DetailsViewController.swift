@@ -8,25 +8,31 @@
 import Foundation
 import UIKit
 
+
 class DetailsViewController: UIViewController {
+    
+    @IBOutlet weak var saveButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
+        }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBOutlet weak var saveButton: UIButton!
     
     @IBAction func saveButton(sender: UIButton!) {
-            sender.selected = !sender.selected
-    }
-    @IBAction func savedButton(sender: UIButton!) {
         sender.selected = !sender.selected
     }
+    @IBAction func savedButton(sender: UIButton) {
+        sender.selected = !sender.selected
+    }
+
     
 }
+
+
+
 

@@ -9,16 +9,26 @@ import Foundation
 import UIKit
 
 class FirstViewController: UIViewController {
+    // properties
+   
+ 
+     // @IBOutlet var tableView: UITableView!
+     //   var items: [String] = ["We", "Heart", "Swift"]
+ 
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            
+            // self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        }
+        
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+//         func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//            return 0
+//        }
+    
+        /*
+        func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+            print("You selected cell #\(indexPath.row)!")
+        }
+ */
 }
-
